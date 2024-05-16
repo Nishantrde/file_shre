@@ -124,9 +124,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 import os
 
-STATIC_ROOT = 'staticfiles/'
+STATIC_ROOT = 'staticfiles_build/'
 STATIC_URL = 'static/'
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles_build")
 STATIC_DIR = {
     os.path.join(BASE_DIR, "public/static")
 }
