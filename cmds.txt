@@ -1,0 +1,12 @@
+touch .gitignore
+git config --global user.name NAme
+git config --global user.email EMail
+git init
+git add .
+git commit -m "Initial Commit"
+git status
+git remote add origin git@github.com:Nishantrde/curd_note.git
+
+ssh-keygen -t rsa -b 4096 -C "email"
+cat <path_of_ssh_key>
+git push origin master
